@@ -6,5 +6,6 @@ namespace Parser.API
         public string OutputFileName { get; set; }
         public string IncomingPath { get; set; }
         public string OutputTableName { get; set; }
+        public bool DeleteFileAfterLoad { get; set; }
     }
 }
